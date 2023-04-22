@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(90deg, #161122 4px, transparent 1%) center, linear-gradient(#161122 4px, transparent 1%) center, #a799cc;
+  background-size: 5px 5px;
+  overflow: hidden;
+}
+
+.tun-client-view, .tun-e-bar, .tun-s-bar {
+  margin: 10px;
+  image-rendering: pixelated;
+}
+
+.tun-container, .tun-e-bar, .tun-s-bar, .tun-chat, .tun-chat-input, .tun-chat-send {
+  border-style: solid;
+  border-width: 10px;
+  border-top-color: #aaaaaa;
+  border-left-color: #aaaaaa;
+  border-right-color: #444444;
+  border-bottom-color: #444444;
+  background: #888888;
+}
+
+.tun-container {
+  margin: 10px;
+  margin-top: 0px;
+  padding: 10px;
+  min-width: 260px;
+  position: relative;
+}
+
+.tun-s-symbol, .tun-e-symbol, .tun-chat-symbol, .tun-e-bar, .tun-s-bar, .tun-chat-input, .tun-chat-send {
+  position: absolute;
+}
+
+.tun-s-symbol, .tun-e-symbol, .tun-chat-symbol {
+  margin: 10px;
+  image-rendering: pixelated;
+}
+
+.tun-e-symbol {
+  top:  10px;
+  left: 0px;
+}
+
+.tun-s-symbol {
+  top:  60px;
+  left: 0px;
+}
+
+.tun-chat-symbol {
+  top:  110px;
+  left: 0px;
+}
+
+.tun-e-bar {
+  top:  0px;
+  left: 30px;
+}
+
+.tun-s-bar {
+  top:  50px;
+  left: 30px;
+}
+
+.tun-chat-input {
+  top: 110px;
+  left: 40px;
+  color: #ffffff;
+  background: #333333;
+  font-family: "Lucida Console", sans-serif;
+  font-weight: bold;
+  width: 176px;
+  float: right;
+}
+
+.tun-chat-send {
+  top:  110px;
+  left: 240px;
+  color: #ffffff;
+  width: 60px;
+  float: right;
+}
+
+.tun-chat {
+  margin-left: auto;
+  margin-right: 0;
+  vertical-align: top;
+  overflow-y: auto;
+  font-family: "Lucida Console", sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: #ffffff;
+  background: #333333;
+}
+
+@media screen and (max-width: 600px) {
+  .tun-container {
+    height: 200px;
+  }
+
+  .tun-chat {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    width: 270px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .tun-container {
+    height: 140px;
+  }
+
+  .tun-chat {
+    position: relative;
+    width: -webkit-calc(100% - 320px);
+    width:    -moz-calc(100% - 320px);
+    width:         calc(100% - 320px);      
+    height: 120px;
+  }
+}
