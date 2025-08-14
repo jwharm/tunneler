@@ -7,7 +7,7 @@
  * base-64 encoded to make sure that they don't contain spaces.
  */
 
-const SERVER_URL = `wss://${location.host}/`;
+const SERVER_URL = `ws://${location.host}/`;
 
 // Communication protocol
 const MSG_INIT = 'I';

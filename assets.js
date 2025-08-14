@@ -8,9 +8,9 @@
 /* global initialized
  */
 
-const MAPS_URL_PREFIX = 'https://cdn.glitch.me/db6a8c88-13c1-416e-a5fa-533e6e974dd3%2F';
-const IMAGES_URL_PREFIX = 'https://cdn.glitch.me/db6a8c88-13c1-416e-a5fa-533e6e974dd3%2F';
-const SOUNDS_URL_PREFIX = 'https://cdn.glitch.me/db6a8c88-13c1-416e-a5fa-533e6e974dd3%2F';
+const MAPS_URL_PREFIX = '/maps/'
+const IMAGES_URL_PREFIX = '/images/';
+const SOUNDS_URL_PREFIX = '/sounds/';
 
 // Images
 let bgImage, shapesImage, mapImage;
