@@ -1,5 +1,9 @@
 # Tunneler
 
+This repository has been moved to https://codeberg.org/jwharm/tunneler
+
+---
+
 This project is a remake of Geoffrey Silverton's classic [Tunneler](https://tunneler.org) game for DOS, for multiple players via internet. The game is developed as a HTML5 Canvas and Javascript app, with a small node.js server that facilitates communication between the players. The graphics are a bit different from the original, and some gameplay elements are changed (for example, the map is not randomly generated) but the basic gameplay is the same.
 
 ![screenshot](screenshot.png)
